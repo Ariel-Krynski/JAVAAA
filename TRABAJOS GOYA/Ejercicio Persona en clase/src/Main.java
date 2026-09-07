@@ -13,6 +13,7 @@ public class Main {
 
         //ASIGNAR UNA EDAD
         persona2.setEdad(23);
+
         //MOSTRAR EDAD ASIGNADA, SI ANTES NO LE ASIGNE UN VALOR, SU VALOR PREDETERMINADO ASIGANDO POR NOSOTROS SERA 9
         System.out.println(persona2.getEdad());
 
@@ -26,10 +27,15 @@ public class Main {
 
 
         //MODIFICAR NOMBRE CON LO INGRESADO POR TECLADO
-        persona1.setNombre(nombre); //Lo que hemos guardado en la var "nombre" nos sirve para poder modificar el nombre
-        //en este caso de persona1, pero podriamos hacer que tambien se guarde en el nombre de persona2.
-        persona2.setNombre(nombre);
-        System.out.println("La persona2 se llama: " + persona2.getNombre());
+        try {
+            persona1.setNombre(nombre); //Lo que hemos guardado en la var "nombre" nos sirve para poder modificar el nombre
+            //en este caso de persona1, pero podriamos hacer que tambien se guarde en el nombre de persona2.
+            persona2.setNombre(nombre);
+            System.out.println("La persona2 se llama: " + persona2.getNombre());
+
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        }
 
 
 
@@ -39,12 +45,6 @@ public class Main {
             System.out.println(numero);
         } catch (ArithmeticException e) {
             System.out.println ("Error de division por 0" + e.getMessage());
-        }
-
-        try {
-            persona1.setNombre(nombre);
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
         }
 
 
@@ -65,8 +65,6 @@ public class Main {
         System.out.println(saludo);
     }
 
-
+}
 
 //como compartir el git de cada uno al profesor
-
-}
