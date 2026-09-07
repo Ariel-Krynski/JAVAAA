@@ -7,11 +7,6 @@ public class Main {
         CuentaBancaria t1 = new CuentaBancaria ("Ariel", 123, 1000);
         CuentaBancaria t2 = new CuentaBancaria ("Emmanuel", 456, 2000);
 
-
-
-
-
-
         //TECLADO ingresar TITULAR
         Scanner teclado = new Scanner(System.in);
         System.out.print("Ingrese su nombre de titular: ");
@@ -49,6 +44,25 @@ public class Main {
 
             System.out.println(e.getMessage());
 
+        }
+
+
+        //DEPOSITAR
+        System.out.print("Ingrese el monto que quiere depositar: ");
+        double montoDepositar = (teclado.nextDouble());
+        try {
+            t1.depositar(montoDepositar);
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        }
+
+        //EXTRAER
+        System.out.print("Ingrese el monto que quiere extraer: ");
+        double montoExtraer = (teclado.nextDouble());
+        try {
+            t1.extraer(montoExtraer);
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
         }
 
 

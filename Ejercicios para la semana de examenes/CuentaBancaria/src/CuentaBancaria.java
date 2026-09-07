@@ -1,16 +1,50 @@
+import java.time.LocalDate;
+
 public class CuentaBancaria {
 
     private String titular;
     private int NumeroCuenta;
     private double Saldo;
+    private double monto;
 
     public CuentaBancaria (String titular, int NumeroCuenta, double Saldo) {
 
         this.titular = titular;
         this.NumeroCuenta = NumeroCuenta;
         this.Saldo = Saldo;
+        this.monto = monto;
 
     }
+
+
+
+
+    public double depositar (double monto) {
+        if (monto <= 0) {
+            throw new IllegalArgumentException("El monto a depositar debe ser positivo");
+        }
+
+        this.Saldo = this.Saldo + monto;
+        return monto;
+    }
+
+
+    public void extraer(double monto) {
+
+        if (monto <= 0) {
+            throw new IllegalArgumentException("El monto a extraer debe ser positivo");
+        }
+
+        if (monto > Saldo) {
+            throw new IllegalArgumentException("No hay saldo suficiente");
+        }
+
+        this.Saldo = this.Saldo - monto;
+    }
+
+
+
+
 
     //GETTERS Y SETTERS
     public String getTitular() {
@@ -41,6 +75,18 @@ public class CuentaBancaria {
     }
 
     public void setNumeroCuenta(int numeroCuenta) {
-        NumeroCuenta = numeroCuenta;
+
     }
+
+    public double getMonto() {
+        return monto;
+    }
+
+    public void setmonto(double monto) {
+
+    }
+
 }
+
+
+
