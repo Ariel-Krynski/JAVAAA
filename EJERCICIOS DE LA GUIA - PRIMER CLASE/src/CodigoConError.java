@@ -58,7 +58,7 @@ public class CodigoConError {
 
 
 
-// APReENDIDO: JAVA SIEMPRE NECESITA QUE LE PROPORCIONES UN VALOR A LA VARIABLE, SIN IMPROTAR QUE ESA VARIABLE CUMPLA CON LA CONDICION O NO.
+// APRENDIDO: JAVA SIEMPRE NECESITA QUE LE PROPORCIONES UN VALOR A LA VARIABLE, SIN IMPROTAR QUE ESA VARIABLE CUMPLA CON LA CONDICION O NO.
 // CORRECCION: Se corrigió el ámbito de resultado al declararlo una sola vez antes del bloque if
 //  y luego asignarle valores dentro del if y else
 
