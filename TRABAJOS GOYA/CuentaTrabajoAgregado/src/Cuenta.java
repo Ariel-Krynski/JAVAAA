@@ -1,5 +1,5 @@
-package cuenta;
- class Cuenta {
+package CuentaTrabajoAgregado;
+public class Cuenta {
 
     private Cliente titular;
     private double saldo;

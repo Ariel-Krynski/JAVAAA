@@ -1,4 +1,4 @@
-package cuenta;
+package CuentaTrabajoAgregado;
 public class Persona {
 
     //NO PUEDO PONER COMO PRIVADOS LOS ATRIBUTOS DE UNA SUPER CLASE

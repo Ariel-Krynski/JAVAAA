@@ -1,4 +1,4 @@
-package cuenta;
+package CuentaTrabajoAgregado;
 public class Cliente {
 
     String nombre;
@@ -15,4 +15,3 @@ public class Cliente {
 
     }
 }
-

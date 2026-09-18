@@ -1,5 +1,4 @@
-import java.time.LocalDate;
-
+// CLASE 5 - TEMA 3 - EJERCICIO 1
 public class CuentaBancaria {
 
     private String titular;
@@ -16,8 +15,11 @@ public class CuentaBancaria {
 
     }
 
+    //CLASE 5 - TEMA 3 - EJERCICIO 1
+    public CuentaBancaria (String titular, int NumeroCuenta) {
 
-
+        this(titular, NumeroCuenta,0);
+    }
 
     public double depositar (double monto) {
         if (monto <= 0) {

@@ -1,3 +1,4 @@
+//EJERCICIO CLASE 5 - TEMA 1 - EJERCICIO 2
 public class EmpleadoNyL {
     private String nombre;
     private int legajo;

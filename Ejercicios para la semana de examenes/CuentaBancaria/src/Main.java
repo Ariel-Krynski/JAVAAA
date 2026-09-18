@@ -1,3 +1,4 @@
+// CLASE 5 - TEMA 3 - EJERCICIO 1
 import java.util.Scanner;
 
 public class Main {
@@ -6,6 +7,11 @@ public class Main {
 
         CuentaBancaria t1 = new CuentaBancaria ("Ariel", 123, 1000);
         CuentaBancaria t2 = new CuentaBancaria ("Emmanuel", 456, 2000);
+        CuentaBancaria t3 = new CuentaBancaria ("Maria", 789);
+
+        //CORROBORACIÓN DE LOS DOS TIPOS DE CONSTRUCTORES
+        System.out.println(t3.getSaldo());
+        System.out.println(t1.getSaldo());
 
         //TECLADO ingresar TITULAR
         Scanner teclado = new Scanner(System.in);
@@ -19,10 +25,6 @@ public class Main {
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
-
-
-
-
 
         //TECLADO ingresar SALDO
         System.out.print("Ingrese su saldo actual: ");
@@ -64,6 +66,7 @@ public class Main {
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
+
 
 
     }

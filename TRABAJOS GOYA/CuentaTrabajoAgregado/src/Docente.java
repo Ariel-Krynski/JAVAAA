@@ -1,5 +1,4 @@
-package cuenta;
-
+package CuentaTrabajoAgregado;
 public class Docente extends Persona {  //FORMA DE HACER QUE UNA CLASE (Docente) HEREDE UNA SUPER CLASE (Persona)
 
     double hsTrabajadas;  //SOLO AGREGAMOS LOS ATRIBUTOS QUE NO SE ENCUENTRAN EN LA SUPER CLASE

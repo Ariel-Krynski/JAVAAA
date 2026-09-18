@@ -1,3 +1,4 @@
+//EJERCICIO CLASE 5 - TEMA 1 - EJERCICIO 2
 public class Main {
 
     public static void main(String[] args) {
@@ -8,6 +9,7 @@ public class Main {
                 new EmpleadoNyL("Daniel", 101),
                 new EmpleadoNyL("Ryan", 103),
                 new EmpleadoNyL("Ariel", 104)
+
         };
 
         //llamar a la clase . metodo (parametro)
