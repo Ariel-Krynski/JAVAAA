@@ -1,9 +1,10 @@
 public class Cuenta {
 
-    private String titular;
+    private Cliente titular;
     private double saldo;
+    private int numCuenta;
 
-    public Cuenta(String titular) {
+    public Cuenta(Cliente titular) {
         this.titular = titular;
     }
 
@@ -27,5 +28,39 @@ public class Cuenta {
 
     public double getSaldo() {
         return this.saldo;
+    }
+
+    //METODO PARA BUSCAR CUENTAS. Esto no se podria hacer sin ASOCIACION
+    public static void buscarCuentas(Cliente cliente, Cuenta[] cuentas) {
+
+        for (Cuenta cuenta : cuentas) {
+
+            if (cuenta.getTitular() == cliente) {
+                System.out.println("Titular: " + cuenta.getTitular().nombre);
+                System.out.println("Saldo: " + cuenta.getSaldo());
+
+
+            }
+        }
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public Cliente getTitular() {
+        return titular;
+    }
+
+    public void setTitular(Cliente titular) {
+        this.titular = titular;
+    }
+
+    public int getNumCuenta() {
+        return numCuenta;
+    }
+
+    public void setNumCuenta(int numCuenta) {
+        this.numCuenta = numCuenta;
     }
 }
