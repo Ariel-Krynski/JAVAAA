@@ -1,5 +1,4 @@
-import herencia.Docente;
-
+package herencia; // SI TENEMOS LOS ARCHIVOS UBICADOS EN PAQUETES DIFERENTES
 public class Main {
 
     public static void main(String[] args) {
