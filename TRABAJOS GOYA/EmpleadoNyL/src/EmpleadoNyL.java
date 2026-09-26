@@ -12,7 +12,7 @@ public class EmpleadoNyL {
     }
 
     public double CalcularSueldo() {
-        return 0; //LO AVANZAMOS EN LA CLASE 6
+        return 1000000; //LO AVANZAMOS EN LA CLASE 6
     }
 
     //METODO
@@ -53,5 +53,10 @@ public class EmpleadoNyL {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    //sobre escritura
+    public double calcularSueldo() {
+        return 10000;
     }
 }

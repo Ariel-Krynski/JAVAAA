@@ -1,16 +1,15 @@
-///
+// Clase 6 - Tema 2 - Ejercicio 2
 public class Vehiculo {
 
     private String marca;
     private String modelo;
     private double precio;
 
-    public Vehiculo (String marca, String vehiculo, double precio) {
+    public Vehiculo (String marca, String modelo, double precio) {
         this.marca = marca;
         this.modelo = modelo;
         this.precio = precio;
     }
-
 
     //GETTERS Y SETTERS
     public String getModelo() {
