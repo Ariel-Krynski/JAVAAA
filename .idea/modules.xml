@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/TRABAJOS GOYA/Practica de Examen/App/App.iml" filepath="$PROJECT_DIR$/TRABAJOS GOYA/Practica de Examen/App/App.iml" />
       <module fileurl="file://$PROJECT_DIR$/TRABAJOS GOYA/Calculadora/Calculadora.iml" filepath="$PROJECT_DIR$/TRABAJOS GOYA/Calculadora/Calculadora.iml" />
       <module fileurl="file://$PROJECT_DIR$/TRABAJOS BLAS/Clases Estaticas/Clases Estaticas.iml" filepath="$PROJECT_DIR$/TRABAJOS BLAS/Clases Estaticas/Clases Estaticas.iml" />
       <module fileurl="file://$PROJECT_DIR$/TRABAJOS BLAS/Cuenta/Cuenta.iml" filepath="$PROJECT_DIR$/TRABAJOS BLAS/Cuenta/Cuenta.iml" />
@@ -15,10 +16,13 @@
       <module fileurl="file://$PROJECT_DIR$/TRABAJOS GOYA/EmpleadoNyL/EmpleadoNyL.iml" filepath="$PROJECT_DIR$/TRABAJOS GOYA/EmpleadoNyL/EmpleadoNyL.iml" />
       <module fileurl="file://$PROJECT_DIR$/TRABAJOS GOYA/Figura/Figura.iml" filepath="$PROJECT_DIR$/TRABAJOS GOYA/Figura/Figura.iml" />
       <module fileurl="file://$PROJECT_DIR$/TRABAJOS BLAS/Final/Final.iml" filepath="$PROJECT_DIR$/TRABAJOS BLAS/Final/Final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TRABAJOS GOYA/Gestion de Paquetes/Gestion de Paquetes.iml" filepath="$PROJECT_DIR$/TRABAJOS GOYA/Gestion de Paquetes/Gestion de Paquetes.iml" />
       <module fileurl="file://$PROJECT_DIR$/TRABAJOS GOYA/Herencia/Herencia.iml" filepath="$PROJECT_DIR$/TRABAJOS GOYA/Herencia/Herencia.iml" />
       <module fileurl="file://$PROJECT_DIR$/TRABAJOS BLAS/Interfaces vs Clase Abstracta/Interfaces vs Clase Abstracta.iml" filepath="$PROJECT_DIR$/TRABAJOS BLAS/Interfaces vs Clase Abstracta/Interfaces vs Clase Abstracta.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVAAA.iml" filepath="$PROJECT_DIR$/JAVAAA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TRABAJOS GOYA/Practica de Examen/Modelo/Modelo.iml" filepath="$PROJECT_DIR$/TRABAJOS GOYA/Practica de Examen/Modelo/Modelo.iml" />
       <module fileurl="file://$PROJECT_DIR$/TRABAJOS GOYA/Persona/Persona.iml" filepath="$PROJECT_DIR$/TRABAJOS GOYA/Persona/Persona.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TRABAJOS GOYA/Practica de examen/Practica de examen.iml" filepath="$PROJECT_DIR$/TRABAJOS GOYA/Practica de examen/Practica de examen.iml" />
       <module fileurl="file://$PROJECT_DIR$/TRABAJOS BLAS/TRABAJOS BLAS.iml" filepath="$PROJECT_DIR$/TRABAJOS BLAS/TRABAJOS BLAS.iml" />
       <module fileurl="file://$PROJECT_DIR$/TRABAJOS GOYA/TRABAJOS GOYA.iml" filepath="$PROJECT_DIR$/TRABAJOS GOYA/TRABAJOS GOYA.iml" />
       <module fileurl="file://$PROJECT_DIR$/TRABAJOS GOYA/Vehiculos/Vehiculo.iml" filepath="$PROJECT_DIR$/TRABAJOS GOYA/Vehiculos/Vehiculo.iml" />
