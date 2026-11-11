@@ -111,6 +111,6 @@ public class MiLista {
     public void setSize(int size) {
         this.size = size;
     }
-}
 
-// copiar enunciado en word. //
+
+}
