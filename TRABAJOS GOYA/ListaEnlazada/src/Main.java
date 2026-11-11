@@ -15,6 +15,8 @@ public class Main {
         System.out.println("Lista original:");
         lista.mostrar();
 
+        System.out.println ("Valor en la posicion 2: " + lista.obtenerValor(2));
+
         // Contamos apariciones
         System.out.println( "Ocurrencias del 4: " + lista.contarOcurrencias(4) );
 
@@ -26,5 +28,7 @@ public class Main {
 
         // Ver tam
         System.out.println("Tamaño final: " + lista.tamanio());
+
+
     }
 }

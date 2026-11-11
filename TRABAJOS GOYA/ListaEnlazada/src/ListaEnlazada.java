@@ -126,6 +126,24 @@ public class ListaEnlazada {
         }
     }
 
+    //Incluya un método que permita retornar el valor en una posición determinado
+
+    public int obtenerValor(int posicion) {
+        if (posicion < 0 || posicion >= cantidad) {
+            throw new IndexOutOfBoundsException("Posición inválida");
+        }
+
+        Nodo actual = primero;
+        int contador = 0;
+
+        while (contador < posicion) {
+            actual = actual.siguiente;
+            contador++;
+        }
+
+        return actual.dato;
+    }
+
     /*
      * En una ListaEstatica, al eliminar un elemento es necesario desplazar
      * hacia la izquierda los elementos posteriores para mantenerlos contiguos.
