@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/TRABAJOS GOYA/ARBOLES/ARBOLES.iml" filepath="$PROJECT_DIR$/TRABAJOS GOYA/ARBOLES/ARBOLES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TRABAJOS GOYA/ARCHIVOS/ARCHIVOS.iml" filepath="$PROJECT_DIR$/TRABAJOS GOYA/ARCHIVOS/ARCHIVOS.iml" />
       <module fileurl="file://$PROJECT_DIR$/TRABAJOS GOYA/Practica de Examen/App/App.iml" filepath="$PROJECT_DIR$/TRABAJOS GOYA/Practica de Examen/App/App.iml" />
       <module fileurl="file://$PROJECT_DIR$/TRABAJOS BLAS/ArbolesYGrafos/ArbolesYGrafos.iml" filepath="$PROJECT_DIR$/TRABAJOS BLAS/ArbolesYGrafos/ArbolesYGrafos.iml" />
       <module fileurl="file://$PROJECT_DIR$/TRABAJOS GOYA/BuscarPalabras/BuscarPalabras.iml" filepath="$PROJECT_DIR$/TRABAJOS GOYA/BuscarPalabras/BuscarPalabras.iml" />
